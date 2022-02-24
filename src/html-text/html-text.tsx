@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TextProps, Linking } from 'react-native';
+import { Text, TextProps, Linking, TextStyle } from 'react-native';
 import { parse, NodeType } from 'node-html-parser';
 import { decode } from 'he';
 import { toRN } from '../helpers/transform';
@@ -163,6 +163,7 @@ const mapStyles = (baseFontSize: number, styles: any[]): any => {
 
 type HtmlTextProps = {
     children: string
+    style?: TextStyle
 } & TextProps;
 
 type HtmlTextFormattedProps = {
@@ -220,7 +221,7 @@ class HtmlTextFormatter extends React.PureComponent<HtmlTextFormattedProps> {
         const content = String(forwardedProps.children);
         const root = parse(content, { pre: true });
 
-        return <Text {...forwardedProps} ref={forwardedRef}>{this.renderChildren(root, 1)}</Text>;
+        return <Text style={forwardedProps.style} {...forwardedProps} ref={forwardedRef}>{this.renderChildren(root, 1)}</Text>;
     }
 }
 

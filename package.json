@@ -1,6 +1,6 @@
 {
-  "name": "@e-mine/react-native-html-text",
-  "version": "0.3.3",
+  "name": "@natalya_myunster/react-native-html-text",
+  "version": "0.0.2",
   "description": "Transform your HTML-formatted text into native styled Text elements.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,13 +34,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/e-mine/react-native-html-text",
-  "author": "e-mine software <contato@e-mine.com.br> (https://e-mine.com.br/)",
+  "repository": "https://github.com/Natalina27/react-native-html-text",
+  "author": "@natalya_myunster software <natalyamyunster@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/e-mine/react-native-html-text/issues"
+    "url": "https://github.com/Natalina27/react-native-html-text/issues"
   },
-  "homepage": "https://github.com/e-mine/react-native-html-text#readme",
+  "homepage": "https://github.com/Natalina27/react-native-html-text#readme",
   "publishConfig": {
     "access": "public"
   },

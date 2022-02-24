@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { HtmlText, HtmlTextContext, HtmlTextContextValue, defaultContextValues } from '@e-mine/react-native-html-text';
+import { HtmlText, HtmlTextContext, HtmlTextContextValue, defaultContextValues } from '@natalya_myunster/react-native-html-text';
 
 export default function App() {
   const html = `<h1>HTML Ipsum &copy; Presents</h1>
